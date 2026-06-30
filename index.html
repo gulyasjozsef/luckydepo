@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lucky Depo - Materiale de constructii</title>
+  <meta name="description" content="Catalog prezentational Lucky Depo pentru materiale de constructii. Comenzile se fac prin telefon.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="promo-bar" aria-label="Oferta saptamanii"><div class="promo-track"><span>🔥 Oferta saptamanii: materiale de constructii si finisaje prin comanda telefonica 🔥</span><span>🔥 Oferta saptamanii: materiale de constructii si finisaje prin comanda telefonica 🔥</span><span>🔥 Oferta saptamanii: materiale de constructii si finisaje prin comanda telefonica 🔥</span></div></div>
+    <div class="container header-main">
+      <a class="brand" href="#" aria-label="Lucky Depo"><img src="logo-transparent.png" alt="Lucky Depo"></a>
+      <label class="search-box" for="searchInput"><input id="searchInput" type="search" placeholder="Cauta produse..." autocomplete="off"><span aria-hidden="true">⌕</span></label>
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-label="Deschide meniul"><span></span><span></span><span></span></button>
+      <a class="phone-header" href="tel:+40741908959"><span>Comenzi telefonice</span><strong>0741 908 959</strong><small>Luni-Vineri: 8:00-17:00</small></a>
+    </div>
+    <nav class="main-nav" aria-label="Navigatie principala">
+      <a href="#catalog">Categorii produse</a>
+      <a href="#location">Locatie si Program</a>
+      <a href="tel:+40741908959">Contact</a>
+      <a href="#blog">Blog</a>
+    </nav>
+  </header>
+
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mobile-drawer-head">
+      <img src="logo-transparent.png" alt="Lucky Depo">
+      <button class="mobile-drawer-close" id="mobileDrawerClose" type="button" aria-label="Inchide meniul">x</button>
+    </div>
+    <div class="mobile-drawer-section filter-section-mobile">
+      <span class="drawer-eyebrow">Catalog</span>
+      <h2>Filtre produse</h2>
+      <div id="mobileFilters"></div>
+    </div>
+    <div class="mobile-drawer-section nav-section-mobile">
+      <span class="drawer-eyebrow">Navigatie</span>
+      <h2>Meniu</h2>
+      <a href="#catalog"><span>▦</span>Categorii produse</a>
+      <a href="#location"><span>⌖</span>Locatie si Program</a>
+      <a href="tel:+40741908959"><span>☎</span>Contact</a>
+      <a href="#blog"><span>✎</span>Blog</a>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+  <main>
+    <section class="hero-slider" aria-label="Promotii Lucky Depo">
+      <div class="hero-slide active" style="background-image: url('assets/hero/slide-constructii-ai.png')">
+        <div class="container hero-slide__content">
+          <span class="eyebrow">Lucky Depo materiale de constructii</span>
+          <h1>Materiale pentru constructii de la fundatie pana la acoperis</h1>
+          <p>Produse pentru zidarie, armaturi, ciment, BCA, acoperisuri si lucrari complete de santier.</p>
+          <a class="primary-btn dialog-phone-btn" href="tel:+40741908959"><span class="buy-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M3.5 4.5h2.6l2.2 10.2h8.9l2.1-7.1H7.2"/><circle cx="9.4" cy="19" r="1.15"/><circle cx="17.2" cy="19" r="1.15"/></svg></span><span>Comanda prin telefon</span></a>
+        </div>
+      </div>
+      <div class="hero-slide" style="background-image: url('assets/hero/slide-finisaje-ai.png')">
+        <div class="container hero-slide__content">
+          <span class="eyebrow">Finisaje si amenajari</span>
+          <h1>Vopsele, adezivi, gleturi si solutii pentru renovari</h1>
+          <p>Alegi produsul din catalog, iar noi confirmam telefonic stocul si varianta potrivita lucrarii.</p>
+          <a class="primary-btn" href="#catalog">Vezi catalogul</a>
+        </div>
+      </div>
+      <div class="hero-slide" style="background-image: url('assets/hero/slide-servicii-ai.png')">
+        <div class="container hero-slide__content">
+          <span class="eyebrow">Scule si echipamente</span>
+          <h1>Tot ce ai nevoie pentru santier, livrat rapid</h1>
+          <p>Roabe, betoniere, accesorii, echipamente de protectie si consultanta directa prin telefon.</p>
+          <a class="primary-btn" href="tel:+40741908959">Suna acum</a>
+        </div>
+      </div>
+      <div class="hero-dots" aria-hidden="true"><button class="active" type="button"></button><button type="button"></button><button type="button"></button></div>
+    </section>
+
+    <section class="container service-cards" id="services" aria-label="Servicii Lucky Depo">
+      <article><span class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5h11v9H3z"/><path d="M14 10h3.4l3.1 3.1v2.4H14z"/><circle cx="7" cy="18" r="1.7"/><circle cx="18" cy="18" r="1.7"/></svg></span><h2>Transport Asigurat</h2><p>Livrare rapida la domiciliu</p></article>
+      <article><span class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 4.5l2.2 4.1-1.5 1.5c1.1 2.2 2.9 4 5.1 5.1l1.5-1.5 4.1 2.2-.8 3.5c-.2.8-.9 1.3-1.7 1.2C8.8 19.7 4.3 15.2 3.4 7.9c-.1-.8.4-1.5 1.2-1.7z"/></svg></span><h2>Consiliere telefonica</h2><p>Experti la dispozitia ta</p></article>
+      <article><span class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/><path d="M7 15h4"/></svg></span><h2>Tu alegi cum platesti</h2><p>Numerar sau card</p></article>
+    </section>
+
+    <section class="catalog-band" id="catalog">
+      <div class="container catalog-layout">
+        <aside class="filters" aria-label="Filtre catalog">
+          <div class="filters__header">
+            <h2>Filtre</h2>
+            <button id="clearFilters" type="button">Reset</button>
+          </div>
+          <div class="filter-group">
+            <h3>Categorie</h3>
+            <div id="sideFilters"></div>
+          </div>
+          <div class="support-box">
+            <strong>Ai nevoie de ajutor?</strong>
+            <p>Suna pentru oferta, transport si recomandari tehnice.</p>
+            <a href="tel:+40741908959">0741 908 959</a>
+          </div>
+        </aside>
+
+        <div class="products-area">
+          <div class="mobile-catalog-actions"><button class="mobile-filter-toggle" id="mobileFilterToggle" type="button">Filtre</button><span id="activeMobileCategory">Toate produsele</span></div>
+            <div class="catalog-toolbar">
+            <div>
+              <span id="resultCount">0 produse</span>
+              <h2>Produse recomandate</h2>
+            </div>
+            <select id="sortSelect" aria-label="Sortare produse">
+              <option value="popular">Cele mai cautate</option>
+              <option value="name">Denumire A-Z</option>
+              <option value="category">Categorie</option>
+            </select>
+          </div>
+          <div class="product-grid" id="productGrid"></div>
+          <nav class="pagination" id="productPagination" aria-label="Paginare produse"></nav>
+          <p class="empty-state" id="emptyState">Nu am gasit produse pentru cautarea curenta.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="product-dialog" id="productDialog">
+    <button class="dialog-close" id="dialogClose" type="button" aria-label="Inchide">x</button>
+    <div class="dialog-grid">
+      <img id="dialogImage" alt="">
+      <div class="dialog-content">
+        <span id="dialogCategory"></span>
+        <h2 id="dialogTitle"></h2>
+        <p id="dialogDescription"></p>
+        <ul id="dialogSpecs"></ul>
+        <a class="primary-btn dialog-phone-btn" href="tel:+40741908959"><span class="buy-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M3.5 4.5h2.6l2.2 10.2h8.9l2.1-7.1H7.2"/><circle cx="9.4" cy="19" r="1.15"/><circle cx="17.2" cy="19" r="1.15"/></svg></span><span>Comanda prin telefon</span></a>
+      </div>
+    </div>
+  </dialog>
+
+  <section class="location-band" id="location">
+    <div class="container location-grid">
+      <div class="location-info location-photo-card">
+        <div class="location-photo" aria-hidden="true"></div>
+        <h2><span class="loc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-12a7 7 0 0 0-14 0c0 5.9 7 12 7 12z"/><circle cx="12" cy="9" r="2.4"/></svg></span> Locatie si Program</h2>
+        <p class="location-name"><strong>Lucky Depo S.R.L.</strong></p>
+        <p><span class="loc-mini"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-12a7 7 0 0 0-14 0c0 5.9 7 12 7 12z"/><circle cx="12" cy="9" r="2.4"/></svg></span> Valea lui Mihai, Calea Revolutiei nr. 48</p>
+        <div class="program-list">
+          <div><span>Luni - Vineri</span><strong>8:00 - 17:00</strong></div>
+          <div><span>Sambata</span><strong>8:00 - 13:00</strong></div>
+        </div>
+        <a class="maps-cta" href="https://www.google.com/maps/search/?api=1&query=Lucky%20Depo%20S.R.L.%20Valea%20lui%20Mihai" target="_blank" rel="noopener">Deschide in Google Maps</a>
+      </div>
+      <div class="map-card">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.7729986180343!2d22.137334076613044!3d47.51381187118143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4747bd0069c9622f%3A0xffa10d9bdf0e8f4d!2sLUCKY%20DEPO%20S.R.L.!5e0!3m2!1sro!2sro!4v1782820208650!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Lucky Depo Google Maps"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog-band" id="blog">
+    <div class="container">
+      <div class="section-heading">
+        <span>Blog Lucky Depo</span>
+        <h2>Sfaturi utile pentru constructii si renovari</h2>
+      </div>
+      <div class="blog-grid">
+        <a class="blog-card" href="blog/cum-alegi-materialele-pentru-zidarie.html">
+          <img src="assets/blog/alegere-materiale-zidarie.png" alt="Cum alegi materialele potrivite pentru zidarie">
+          <span>Materiale</span>
+          <h3>Cum alegi materialele potrivite pentru zidarie</h3>
+          <p>Ghid simplu pentru proprietari: BCA, caramida si materialele auxiliare necesare.</p>
+        </a>
+        <a class="blog-card" href="blog/pregatirea-peretilor-inainte-de-vopsire.html">
+          <img src="assets/blog/pregatire-pereti-vopsire.png" alt="Pregatirea peretilor inainte de vopsire">
+          <span>Finisaje</span>
+          <h3>Pregatirea peretilor inainte de vopsire</h3>
+          <p>Curatare, reparatii, glet, slefuire si amorsa explicate pe intelesul tuturor.</p>
+        </a>
+        <a class="blog-card" href="blog/de-ce-sa-comanzi-materialele-prin-telefon.html">
+          <img src="assets/blog/comanda-telefonica-materiale.png" alt="De ce sa comanzi materialele prin telefon">
+          <span>Comenzi</span>
+          <h3>De ce sa comanzi materialele prin telefon</h3>
+          <p>Confirmi cantitati, transport si recomandari inainte sa cumperi materialele.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+<footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <img src="logo-transparent.png" alt="Lucky Depo">
+        <p>LUCKY DEPO ofera o gama larga de materiale de constructii. Comenzile se preiau exclusiv telefonic, cu recomandari pentru produse, cantitati si transport.</p>
+        <div class="footer-badges" aria-label="Solutionarea litigiilor">
+          <a href="https://anpc.ro/" target="_blank" rel="noopener" aria-label="ANPC"><img src="assets/products-pdf/anpc.png" alt="ANPC"></a>
+          <a href="https://reclamatiisal.anpc.ro/" target="_blank" rel="noopener" aria-label="Solutionarea alternativa a litigiilor"><img src="assets/products-pdf/sol.png" alt="Solutionarea alternativa a litigiilor"></a>
+        </div>
+        <a class="footer-social" href="https://www.facebook.com/luckydepo.srl/" target="_blank" rel="noopener">Facebook Lucky Depo</a>
+      </div>
+      <div class="footer-links">
+        <h2>Informatii utile</h2>
+        <a href="blog/cum-alegi-materialele-pentru-zidarie.html">Cum aleg materialele?</a>
+        <a href="blog/pregatirea-peretilor-inainte-de-vopsire.html">Pregatirea peretilor</a>
+        <a href="blog/de-ce-sa-comanzi-materialele-prin-telefon.html">Cum comand?</a>
+        <a href="https://www.facebook.com/luckydepo.srl/" target="_blank" rel="noopener">Facebook Lucky Depo</a>
+      </div>
+      <div class="footer-company">
+        <h2>Date comerciale</h2>
+        <p>LUCKY DEPO SRL</p>
+        <p>CUI: RO97591</p>
+        <p>Calea Revolutiei nr. 48</p>
+        <p>Valea lui Mihai, jud. Bihor</p>
+        <a href="tel:+40741908959">0741 908 959</a>
+        <a href="mailto:office@luckydepo.ro">office@luckydepo.ro</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">© 2026 LuckyDEPO. Toate drepturile rezervate.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
